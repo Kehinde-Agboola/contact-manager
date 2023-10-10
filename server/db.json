@@ -1,0 +1,85 @@
+{
+  "contacts": [
+    {
+      "id": "twingina",
+      "name": "Brad Gibson",
+      "company": "Clooper",
+      "email": "kehinde@gmail.com",
+      "title": "Frontend Dev",
+      "mobile": "98756546787",
+      "photo": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+    },
+    {
+      "id": "tyingixe",
+      "name": "Taiye Agboola",
+      "company": "Prowrite",
+      "email": "taiye@gmail.com",
+      "title": "Backend Dev",
+      "mobile": "98756546787",
+      "photo": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+    },
+    {
+      "id": "xgingit",
+      "name": "Chidiebere Anozie",
+      "company": "Venox",
+      "email": "chidi@gmail.com",
+      "title": "Product designer",
+      "mobile": "98756546787",
+      "photo": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+    },
+    {
+      "id": "twingina",
+      "name": "Brad Gibson",
+      "company": "Clooper",
+      "email": "kehinde@gmail.com",
+      "title": "Frontend Dev",
+      "mobile": "98756546787",
+      "photo": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+    },
+    {
+      "id": "twingina",
+      "name": "Brad Gibson",
+      "company": "Clooper",
+      "email": "kehinde@gmail.com",
+      "title": "Frontend Dev",
+      "mobile": "98756546787",
+      "photo": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+    },
+    {
+      "id": "twingina",
+      "name": "Brad Gibson",
+      "company": "Clooper",
+      "email": "kehinde@gmail.com",
+      "title": "Frontend Dev",
+      "mobile": "98756546787",
+      "photo": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+    },
+    {
+      "id": "twingina",
+      "name": "Brad Gibson",
+      "company": "Clooper",
+      "email": "kehinde@gmail.com",
+      "title": "Frontend Dev",
+      "mobile": "98756546787",
+      "photo": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "Colleague"
+    },
+    {
+      "id": "2",
+      "name": "family"
+    },
+    {
+      "id": "3",
+      "name": "friends"
+    },
+    {
+      "id": "4",
+      "name": "Service"
+    }
+  ]
+}
