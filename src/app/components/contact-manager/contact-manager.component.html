@@ -3,7 +3,7 @@
     <div class="col">
       <p class="h3 text-danger fw-bold">
         NG Contacts
-        <a class="btn btn-danger btn-sm" routerLink="/contacts/add">
+        <a class="btn btn-success btn-sm" routerLink="/contacts/add">
           <i class="fa fa-plus-circle"></i>New
         </a>
       </p>
@@ -39,27 +39,43 @@
   </div>
 </div>
 
+<!-- <pre>{{ contacts | json }}</pre> -->
 <!-- Cards -->
 
-<div class="container mt-3">
+<!-- Loading spinner -->
+<div *ngif="loading">
+  <app-spinner></app-spinner>
+</div>
+<!-- Error Handling -->
+<div *ngIf="!loading && errorMessage">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <p class="h4 text-danger fw-bold">{{ errorMessage }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container mt-3" *ngIf="!loading && contacts.length > 0">
   <div class="row">
-    <div class="col-md-6">
+    <div *ngFor="let contact of contacts" class="col-md-6 my-3">
       <div class="card list-group-item-danger shadow-lg">
         <div class="card-body">
           <div class="row align-items-center">
             <div class="col-md-4">
-              <img [src]="profile" alt="" class="contact-img" />
+              <img [src]="contact.photo" alt="" class="contact-img" />
             </div>
             <div class="col-md-7">
               <ul class="list-group">
                 <li class="list-group-item">
-                  Name: <span class="fw-bold">Name</span>
+                  Name: <span class="fw-bold">{{ contact.name }}</span>
                 </li>
                 <li class="list-group-item">
-                  Email: <span class="fw-bold">Email</span>
+                  Email: <span class="fw-bold">{{ contact.email }}</span>
                 </li>
                 <li class="list-group-item">
-                  Mobile: <span class="fw-bold">Mobile</span>
+                  Mobile: <span class="fw-bold">{{ contact.mobile }}</span>
                 </li>
               </ul>
             </div>
