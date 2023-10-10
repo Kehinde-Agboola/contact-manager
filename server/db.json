@@ -7,16 +7,7 @@
       "email": "kehinde@gmail.com",
       "title": "Frontend Dev",
       "mobile": "98756546787",
-      "photo": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
-    },
-    {
-      "id": "tyingixe",
-      "name": "Taiye Agboola",
-      "company": "Prowrite",
-      "email": "taiye@gmail.com",
-      "title": "Backend Dev",
-      "mobile": "98756546787",
-      "photo": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+      "photo": "https://t4.ftcdn.net/jpg/04/83/90/95/360_F_483909569_OI4LKNeFgHwvvVju60fejLd9gj43dIcd.jpg"
     },
     {
       "id": "xgingit",
@@ -25,43 +16,43 @@
       "email": "chidi@gmail.com",
       "title": "Product designer",
       "mobile": "98756546787",
-      "photo": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZEUJMWDJ8JMOrk1qlAD7YzZ6m0pUfaxM24Zk4K5R8TbtCND5Yf5q-ioNkpdnLQ8Q6JSs&usqp=CAU"
     },
     {
       "id": "twingina",
       "name": "Brad Gibson",
-      "company": "Clooper",
-      "email": "kehinde@gmail.com",
+      "company": "Maxng",
+      "email": "brad gibson@gmail.com",
+      "title": "Frontend Dev",
+      "mobile": "98756546787",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUbTbNk74wI4pInA-gWvIu7TKP_m4_Q5K1H8kPcqUc6EdAfmdtOTWV10_Ru1tgUU2QwlY&usqp=CAU"
+    },
+    {
+      "id": "twingina",
+      "name": "Tosin Samuel",
+      "company": "Money Africa",
+      "email": "MoneyAfrica@gmail.com",
+      "title": "Frontend Dev",
+      "mobile": "98756546787",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQAbZjK72TkC2-40QUad5MlUYnprgFYSqlY9KgXxj2dY2o4UoY_1eACUIBc04YaiW-2so&usqp=CAU"
+    },
+    {
+      "id": "twingina",
+      "name": "Abimbola Ojenike",
+      "company": "Slingstone Law firm",
+      "email": "abimbola@gmail.com",
       "title": "Frontend Dev",
       "mobile": "98756546787",
       "photo": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
     },
     {
       "id": "twingina",
-      "name": "Brad Gibson",
-      "company": "Clooper",
-      "email": "kehinde@gmail.com",
+      "name": "Taiye Agboola",
+      "company": "University of Ibadan",
+      "email": "agboolasegun@gmail.com",
       "title": "Frontend Dev",
       "mobile": "98756546787",
-      "photo": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
-    },
-    {
-      "id": "twingina",
-      "name": "Brad Gibson",
-      "company": "Clooper",
-      "email": "kehinde@gmail.com",
-      "title": "Frontend Dev",
-      "mobile": "98756546787",
-      "photo": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
-    },
-    {
-      "id": "twingina",
-      "name": "Brad Gibson",
-      "company": "Clooper",
-      "email": "kehinde@gmail.com",
-      "title": "Frontend Dev",
-      "mobile": "98756546787",
-      "photo": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH2P21SKcXYr5iTuBeLe8-ZFv_gv42oZBA5WcStlqf1DOe6a53sYXP3pYVKH3groOqTCE&usqp=CAU"
     }
   ],
   "groups": [
