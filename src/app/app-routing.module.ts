@@ -21,11 +21,11 @@ const routes: Routes = [
     component: AddContactComponent,
   },
   {
-    path: 'contact/edit/:contactId',
+    path: 'contacts/edit/:contactId',
     component: EditContactComponent,
   },
   {
-    path: 'contact/view/:contactId',
+    path: 'contacts/view/:contactId',
     component: ViewContactComponent,
   },
   {
