@@ -2,6 +2,7 @@ import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { IContact } from '../models/IContact';
 import { Observable, catchError, throwError } from 'rxjs';
+import { IGroup } from '../models/IGroup';
 
 @Injectable({
   providedIn: 'root',
@@ -10,7 +11,7 @@ export class ContactService {
   private serverUrl: string = `http://localhost:9000`;
 
   constructor(private httpclient: HttpClient) {}
-
+  // Get all Contacts
   public getAllContacts() {
     let dataURL: string = `${this.serverUrl}/contacts`;
 
@@ -48,6 +49,23 @@ export class ContactService {
     let dataURL: string = `${this.serverUrl}/contacts/${contactId}`;
     return this.httpclient
       .delete<{}>(dataURL)
+      .pipe(catchError(this.handleEroor));
+  }
+
+  // Get all Groups
+  public getAllGroups() {
+    let dataURL: string = `${this.serverUrl}/groups`;
+
+    return this.httpclient
+      .get<IGroup[]>(dataURL)
+      .pipe(catchError(this.handleEroor));
+  }
+
+  // Get single Group
+  public getGroup(contactId: IContact): Observable<IGroup> {
+    let dataURL: string = `${this.serverUrl}/groups/${contactId}`;
+    return this.httpclient
+      .get<IGroup>(dataURL)
       .pipe(catchError(this.handleEroor));
   }
 
