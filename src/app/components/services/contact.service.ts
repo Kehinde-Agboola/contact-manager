@@ -53,7 +53,7 @@ export class ContactService {
   }
 
   // Get all Groups
-  public getAllGroups() {
+  public getAllGroups(): Observable<IGroup[]> {
     let dataURL: string = `${this.serverUrl}/groups`;
 
     return this.httpclient
@@ -62,8 +62,8 @@ export class ContactService {
   }
 
   // Get single Group
-  public getGroup(contactId: IContact): Observable<IGroup> {
-    let dataURL: string = `${this.serverUrl}/groups/${contactId}`;
+  public getGroup(contact: IContact): Observable<IGroup> {
+    let dataURL: string = `${this.serverUrl}/groups/${contact.groupId}`;
     return this.httpclient
       .get<IGroup>(dataURL)
       .pipe(catchError(this.handleEroor));
