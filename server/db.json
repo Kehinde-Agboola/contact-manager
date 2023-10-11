@@ -7,7 +7,8 @@
       "email": "kehinde@gmail.com",
       "title": "Frontend Dev",
       "mobile": "98756546787",
-      "photo": "https://t4.ftcdn.net/jpg/04/83/90/95/360_F_483909569_OI4LKNeFgHwvvVju60fejLd9gj43dIcd.jpg"
+      "photo": "https://t4.ftcdn.net/jpg/04/83/90/95/360_F_483909569_OI4LKNeFgHwvvVju60fejLd9gj43dIcd.jpg",
+      "groupId": "1"
     },
     {
       "id": "xgingit",
@@ -16,43 +17,48 @@
       "email": "chidi@gmail.com",
       "title": "Product designer",
       "mobile": "98756546787",
-      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZEUJMWDJ8JMOrk1qlAD7YzZ6m0pUfaxM24Zk4K5R8TbtCND5Yf5q-ioNkpdnLQ8Q6JSs&usqp=CAU"
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZEUJMWDJ8JMOrk1qlAD7YzZ6m0pUfaxM24Zk4K5R8TbtCND5Yf5q-ioNkpdnLQ8Q6JSs&usqp=CAU",
+      "groupId": "6"
     },
     {
-      "id": "twingina",
+      "id": "dwingina",
       "name": "Brad Gibson",
       "company": "Maxng",
       "email": "brad gibson@gmail.com",
       "title": "Frontend Dev",
       "mobile": "98756546787",
-      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUbTbNk74wI4pInA-gWvIu7TKP_m4_Q5K1H8kPcqUc6EdAfmdtOTWV10_Ru1tgUU2QwlY&usqp=CAU"
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUbTbNk74wI4pInA-gWvIu7TKP_m4_Q5K1H8kPcqUc6EdAfmdtOTWV10_Ru1tgUU2QwlY&usqp=CAU",
+      "groupId": "5"
     },
     {
-      "id": "twingina",
+      "id": "tHinginal",
       "name": "Tosin Samuel",
       "company": "Money Africa",
       "email": "MoneyAfrica@gmail.com",
       "title": "Frontend Dev",
       "mobile": "98756546787",
-      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQAbZjK72TkC2-40QUad5MlUYnprgFYSqlY9KgXxj2dY2o4UoY_1eACUIBc04YaiW-2so&usqp=CAU"
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQAbZjK72TkC2-40QUad5MlUYnprgFYSqlY9KgXxj2dY2o4UoY_1eACUIBc04YaiW-2so&usqp=CAU",
+      "groupId": "2"
     },
     {
-      "id": "twingina",
+      "id": "Kilnginza",
       "name": "Abimbola Ojenike",
       "company": "Slingstone Law firm",
       "email": "abimbola@gmail.com",
       "title": "Frontend Dev",
       "mobile": "98756546787",
-      "photo": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+      "photo": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+      "groupId": "3"
     },
     {
-      "id": "twingina",
+      "id": "tdiGgina",
       "name": "Taiye Agboola",
       "company": "University of Ibadan",
       "email": "agboolasegun@gmail.com",
       "title": "Frontend Dev",
       "mobile": "98756546787",
-      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH2P21SKcXYr5iTuBeLe8-ZFv_gv42oZBA5WcStlqf1DOe6a53sYXP3pYVKH3groOqTCE&usqp=CAU"
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH2P21SKcXYr5iTuBeLe8-ZFv_gv42oZBA5WcStlqf1DOe6a53sYXP3pYVKH3groOqTCE&usqp=CAU",
+      "groupId": "4"
     }
   ],
   "groups": [
@@ -70,6 +76,14 @@
     },
     {
       "id": "4",
+      "name": "Service"
+    },
+    {
+      "id": "5",
+      "name": "Service"
+    },
+    {
+      "id": "6",
       "name": "Service"
     }
   ]
