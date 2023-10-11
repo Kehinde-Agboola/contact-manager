@@ -10,30 +10,85 @@
     </div>
   </div>
 </div>
-
+<!-- <pre>{{ groups | json }}</pre> -->
 <!-- Contact-Form -->
+<!-- <pre>{{ contact | json }}</pre> -->
 <div class="container">
   <div class="row">
     <div class="col-sm-4">
-      <form>
+      <form (submit)="createSubmit()">
         <div class="mt-2">
-          <input type="text" placeholder="Name" class="form-control" />
+          <input
+            type="text"
+            [(ngModel)]="contact.name"
+            name="name"
+            classs="form-control"
+            placeholder="Name"
+            class="form-control"
+            required
+          />
         </div>
         <div class="mt-2">
-          <input type="text" placeholder="Photo Url" class="form-control" />
+          <input
+            type="text"
+            placeholder="Photo Url"
+            [(ngModel)]="contact.photo"
+            name="phtot"
+            class="form-control"
+            required
+          />
         </div>
         <div class="mt-2">
-          <input type="text" placeholder="Email" class="form-control" />
+          <input
+            type="text"
+            placeholder="Email"
+            [(ngModel)]="contact.email"
+            name="email"
+            class="form-control"
+            required
+          />
         </div>
         <div class="mt-2">
-          <input type="text" placeholder="Mobile" class="form-control" />
+          <input
+            type="text"
+            placeholder="Mobile"
+            [(ngModel)]="contact.mobile"
+            name="mobile"
+            class="form-control"
+            required
+          />
         </div>
         <div class="mt-2">
-          <input type="text" placeholder="Company" class="form-control" />
+          <input
+            type="text"
+            placeholder="Company"
+            [(ngModel)]="contact.company"
+            name="company"
+            class="form-control"
+            required
+          />
         </div>
         <div class="mt-2">
-          <select name="" class="form-control">
-            <option value="">select the group</option>
+          <input
+            type="text"
+            placeholder="Title"
+            [(ngModel)]="contact.title"
+            name="title"
+            class="form-control"
+            required
+          />
+        </div>
+        <div class="mt-2">
+          <select
+            [(ngModel)]="contact.groupId"
+            name="groupId"
+            class="form-control"
+            required
+            *ngIf="groups.length > 0"
+          >
+            <option [value]="group.id" *ngFor="let group of groups">
+              {{ group.name }}
+            </option>
           </select>
         </div>
         <div class="mt-2">
@@ -43,11 +98,7 @@
       </form>
     </div>
     <div class="col-sm-4">
-      <img
-        src="https://assets.stickpng.com/images/585e4bcdcb11b227491c3396.png"
-        alt=""
-        class="add-image"
-      />
+      <img [src]="contact.photo" alt="" class="add-image" />
     </div>
   </div>
 </div>
