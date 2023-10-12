@@ -8,9 +8,9 @@ import { IGroup } from '../models/IGroup';
   providedIn: 'root',
 })
 export class ContactService {
-  private serverUrl: string = `http://localhost:9000`;
-
   constructor(private httpclient: HttpClient) {}
+  private serverUrl: string = `https://contact-manager-servers.onrender.com`;
+
   // Get all Contacts
   public getAllContacts() {
     let dataURL: string = `${this.serverUrl}/contacts`;
